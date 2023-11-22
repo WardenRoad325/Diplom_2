@@ -1,7 +1,7 @@
-package Orders;
+package orders;
 
-import Helper.ClientApi;
-import Helper.OrderApi;
+import helper.ClientApi;
+import helper.OrderApi;
 import io.qameta.allure.junit4.DisplayName;
 import io.restassured.response.ValidatableResponse;
 import org.apache.http.HttpStatus;

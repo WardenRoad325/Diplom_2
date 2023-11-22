@@ -1,13 +1,13 @@
-package Client;
+package client;
 
 
-import Helper.ClientApi;
+import helper.ClientApi;
 import io.qameta.allure.junit4.DisplayName;
 
 import org.apache.http.HttpStatus;
 
 import org.example.LoginUser;
-import org.example.OrderUser;
+
 import org.junit.Test;
 
 import static org.hamcrest.Matchers.equalTo;

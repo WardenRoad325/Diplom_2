@@ -1,6 +1,6 @@
-package Client;
+package client;
 
-import Helper.ClientApi;
+import helper.ClientApi;
 import io.qameta.allure.junit4.DisplayName;
 import org.apache.http.HttpStatus;
 import org.junit.Test;

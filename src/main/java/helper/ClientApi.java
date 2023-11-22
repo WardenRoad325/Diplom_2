@@ -1,12 +1,12 @@
-package Helper;
+package helper;
 
 import io.qameta.allure.Step;
 import io.restassured.response.ValidatableResponse;
 import org.example.CreateUser;
 import org.example.LoginUser;
 
-import static Helper.CreateApi.getPostSpec;
-import static Helper.CreateApi.getPostSpecAuth;
+import static helper.CreateApi.getPostSpec;
+import static helper.CreateApi.getPostSpecAuth;
 import static io.restassured.RestAssured.given;
 
 

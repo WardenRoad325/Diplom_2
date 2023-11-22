@@ -1,8 +1,7 @@
-package Orders;
+package orders;
 
-import Helper.ClientApi;
-import Helper.CreateApi;
-import Helper.OrderApi;
+import helper.ClientApi;
+import helper.OrderApi;
 
 import io.qameta.allure.Step;
 import io.qameta.allure.junit4.DisplayName;

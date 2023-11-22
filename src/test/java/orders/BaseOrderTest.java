@@ -1,6 +1,6 @@
-package Orders;
+package orders;
 
-import Helper.ClientApi;
+import helper.ClientApi;
 import io.restassured.response.ValidatableResponse;
 
 import org.example.CreateUser;

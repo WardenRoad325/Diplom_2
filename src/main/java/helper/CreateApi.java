@@ -1,4 +1,4 @@
-package Helper;
+package helper;
 
 
 import io.restassured.builder.RequestSpecBuilder;

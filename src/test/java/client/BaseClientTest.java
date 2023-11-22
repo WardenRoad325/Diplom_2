@@ -1,7 +1,7 @@
-package Client;
+package client;
 
 
-import Helper.ClientApi;
+import helper.ClientApi;
 import io.restassured.response.ValidatableResponse;
 import org.example.CreateUser;
 import org.example.LoginUser;
@@ -23,22 +23,13 @@ public class BaseClientTest {
     @Before
     public void setup() {
         user = CreateUser.getRandomUser();
-    }
-
-    @After
-    public void cleanUp() {
-        if (token == null) return;
-        ClientApi.deleteUser(user, token);
-    }
-
-    @Before
-    public void setUp() {
         createUserRequest = CreateUser.getRandomUser();
     }
 
     @After
     public void tearDown() {
         if (token == null) return;
+        ClientApi.deleteUser(user, token);
         ClientApi.deleteUser(createUserRequest, token);
     }
 }
